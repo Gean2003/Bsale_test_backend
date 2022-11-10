@@ -14,7 +14,7 @@ La aplicacion fue hecha utilizando las siguientes tecnologias:
 ## Detalles de la peticion
 Al realizar una peticion HTTP al siguiente endpoint:
 ```
-https://bsaletestbackend-production.up.railway.app/api/products
+https://bsale-backend-vyob.onrender.com/api/products
 ```
 
  el servidor devolvera un json con la siguiente estructura:
@@ -32,7 +32,7 @@ Al realizar la peticion
 **ejemplo**
 
 ```
-https://bsaletestbackend-production.up.railway.app/api/products?page=1&perpage=10
+https://bsale-backend-vyob.onrender.com/api/products?offset=2&limit=10",
 ```
 Te mostrara lo siguiente :
 
@@ -48,7 +48,7 @@ Si quieres acceder a las categorias puedes usar esto:
 
 
 ```
-https://bsaletestbackend-production.up.railway.app/api/products/category
+https://bsale-backend-vyob.onrender.com/api/categories
 ```
 te mostrara lo siguiente :
 
@@ -60,7 +60,7 @@ Si deseas buscar productos mas especificos lo puedes hacer pasandole el nombre c
 **ejemplo**
 
 ```
-https://bsaletestbackend-production.up.railway.app/api/products/q?name=pisco
+https://bsale-backend-vyob.onrender.com/api/products/search?name=pisco
 ```
 
 ![name](./src/extra/search.png)
