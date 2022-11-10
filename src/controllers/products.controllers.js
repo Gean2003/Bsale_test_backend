@@ -5,7 +5,7 @@ const getAllProducts = async (req, res) => {
 
         const offset = Number(req.query.offset) || 1 ;
         const limit = Number(req.query.limit) || 10 ;
-        const urlBase =  `http://localhost:9000/api/products` ;
+        const urlBase =  'https://bsale-backend-vyob.onrender.com/api/products' ;
     try {
 
 
